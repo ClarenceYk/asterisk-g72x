@@ -1,0 +1,7 @@
+config BR2_PACKAGE_ASTERISK_G72X
+	bool "asterisk-g72x"
+	depends on BR2_PACKAGE_ASTERISK
+	help
+	  Add g72x codecs support for Asterisk.
+
+	  http://asterisk.hosting.lv
